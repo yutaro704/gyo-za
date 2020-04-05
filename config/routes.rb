@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  roots "restaurants#index"
+  get 'restaurants/index'
+
+  root "restaurants#index"
 end
