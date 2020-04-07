@@ -57,12 +57,33 @@
       }
     }
     &__logo{
-      height: 24px;
-      width: 24px;
+      position: relative;
+      height: 48px;
+      width: 240px;
       display: inline-block;
+      box-sizing: border-box;
+      .menu-icon{
+        position: absolute;
+        display: inline-block;
+        box-sizing: border-box;
+        top: 10px;
+        left: 10px;
+      }
     }
     &__sub-title{
+      position: relative;
+      height: 48px;
+      width: 240px;
       display: inline-block;
+      box-sizing: border-box;
+      text-align: center;
+      .sub-title{
+        position: absolute;
+        display: inline-block;
+        box-sizing: border-box;
+        top: 10px;
+        left: 10px;
+      }
     }
   }
 }
