@@ -88,6 +88,22 @@
         left: 20px;
       }
     }
+    &__search{
+      position: absolute;
+      height: 48px;
+      width: 48px;
+      display: inline-block;
+      box-sizing: border-box;
+      text-align: center;
+      top: 20px;
+      right: 30px;
+      .fa{
+        position: absolute;
+        font-size: 25px;
+        top:12px;
+        right: 12px;
+      }
+    }
   }
 }
 
