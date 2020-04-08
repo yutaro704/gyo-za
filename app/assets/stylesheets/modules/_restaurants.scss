@@ -7,10 +7,11 @@
   height: 300px;
   width: 100%;
   &-upper{
+    height: 70px;
     &__menu{
       position: relative;
       height: 48px;
-      width: 48px;
+      width: 100px;
       display: inline-block;
       box-sizing: border-box;
       text-align: center;
@@ -58,11 +59,13 @@
     }
     &__logo{
       position: relative;
-      height: 48px;
+      height: 70px;
       width: 240px;
       display: inline-block;
       box-sizing: border-box;
       .menu-icon{
+        font-family: arial-black;
+        font-size: 50px;
         position: absolute;
         display: inline-block;
         box-sizing: border-box;
@@ -72,8 +75,8 @@
     }
     &__sub-title{
       position: relative;
-      height: 48px;
-      width: 240px;
+      height: 70px;
+      width: 480px;
       display: inline-block;
       box-sizing: border-box;
       text-align: center;
@@ -81,8 +84,8 @@
         position: absolute;
         display: inline-block;
         box-sizing: border-box;
-        top: 10px;
-        left: 10px;
+        top: 20px;
+        left: 20px;
       }
     }
   }
