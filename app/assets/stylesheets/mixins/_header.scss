@@ -8,3 +8,16 @@
   display: inline-block;
   box-sizing: border-box
 }
+
+@mixin header-middle__box{
+  background-color:#272727;
+  color: #fff;
+  height: 80px;
+  width: 175px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 50px;
+  cursor: pointer;
+  font-weight: bold;
+}
