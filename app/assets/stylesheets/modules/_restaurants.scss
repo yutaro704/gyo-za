@@ -24,35 +24,14 @@
         border-radius: 2px;
         box-sizing: border-box;
         &-a{
-          position: absolute;
-          left: 0;
-          height: 4px;
-          width: 24px;
-          background-color: #444;
-          border-radius: 2px;
-          display: inline-block;
-          box-sizing: border-box;
+          @include hamburger;
         }
         &-b{
-          position: absolute;
-          left: 0;
-          height: 4px;
-          width: 24px;
-          background-color: #444;
-          border-radius: 2px;
-          display: inline-block;
-          box-sizing: border-box;
+          @include hamburger;
           top: 10px;
         }
         &-c{
-          position: absolute;
-          left: 0;
-          height: 4px;
-          width: 24px;
-          background-color: #444;
-          border-radius: 2px;
-          display: inline-block;
-          box-sizing: border-box;
+          @include hamburger;
           bottom: 0;
         }
       }
