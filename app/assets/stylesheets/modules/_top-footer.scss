@@ -7,15 +7,16 @@
   justify-content: space-between;
   flex-wrap: wrap;
   &-upper{
-    height: 100px;
     width: 70%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     p{
+      font-weight: 700;
       margin-bottom: 20px;
     }
     ul{
       font-size: 5px;
       display: flex;
+      margin-bottom: 20px;
       li{
         height: 20px;
         width: 80px;
