@@ -9,19 +9,17 @@
   &-upper{
     height: 100px;
     width: 70%;
-    box-sizing: border-box;
     margin-bottom: 37px;
-    &__keyword{
-      height: 70px;
+    p{
+      margin-bottom: 20px;
     }
-    &__category{
-      height: 70px;
-    }
-    &__question{
-      height: 70px;
-    }
-    &__all-right-reserved{
-      
+    ul{
+      font-size: 5px;
+      display: flex;
+      li{
+        height: 20px;
+        width: 80px;
+      }
     }
   }
 
@@ -29,7 +27,6 @@
     font-size: 25px;
     height: 100px;
     width: 30%;
-    box-sizing: border-box;
     display: flex;
     list-style: none;
     margin-bottom: 37px;
