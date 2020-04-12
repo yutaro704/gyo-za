@@ -1,0 +1,17 @@
+.contents{
+  width: 1060px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  h2{
+    font-size: 25px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #e5e5e5;
+  }
+}
