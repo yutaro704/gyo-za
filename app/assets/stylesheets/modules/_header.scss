@@ -1,0 +1,49 @@
+.header{
+  &-menu{
+    position: relative;
+    height: 48px;
+    width: 100px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    .menu-icon{
+      position: absolute;
+      height: 24px;
+      width: 24px;
+      top: 12px;
+      left: 12px;
+      border-radius: 2px;
+      box-sizing: border-box;
+      &-a{
+        @include hamburger;
+      }
+      &-b{
+        @include hamburger;
+        top: 10px;
+      }
+      &-c{
+        @include hamburger;
+        bottom: 0;
+      }
+    }
+  }
+  h1{
+
+  }
+  &-search{
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    top: 20px;
+    right: 30px;
+    .fa{
+      position: absolute;
+      font-size: 25px;
+      top:12px;
+      right: 12px;
+    }
+  }
+}
