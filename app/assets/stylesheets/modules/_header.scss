@@ -1,11 +1,11 @@
 .header{
   position: relative;
-  height: auto;
+  height: 60px;
   width: 100%;
   
   &-menu{
-    height: 48px;
-    width: 100px;
+    height: auto;
+    width: 100%;
     display: inline-block;
     box-sizing: border-box;
     text-align: center;
@@ -32,21 +32,21 @@
   }
   h1{
     margin: 0 auto;
+    display: block;
+    width: 68%;
+    padding: 10px 0;
   }
   &-search{
     position: absolute;
-    height: 48px;
-    width: 48px;
+    height: 25px;
+    width: 25px;
     display: inline-block;
     box-sizing: border-box;
     text-align: center;
     top: 24px;
     right: 30px;
     .fa{
-      position: absolute;
       font-size: 25px;
-      top:12px;
-      right: 12px;
     }
   }
 }
