@@ -2,9 +2,9 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import './mixins/top';
-@import "modules/header";
-@import "modules/top";
-@import "modules/footer";
-@import "modules/main";
-@import "modules/side-bar";
+@import "modules/commons/header";
+@import "modules/commons/footer";
+@import "modules/index/top";
+@import "modules/index/main";
+@import "modules/index/main";
 
