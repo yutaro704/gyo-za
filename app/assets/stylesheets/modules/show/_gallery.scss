@@ -1,0 +1,16 @@
+.gallary{
+  height: 200px;
+  position: relative;
+  &__images{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 10px;
+    &--1{
+      width: auto;
+      max-width: none;
+      max-height: 100%;
+    }
+  }
+}
