@@ -26,9 +26,13 @@
     }
   }
   &-side{
+    height: auto;
     width: 306px;
     .restaurant-name{
-
+      font-size: 20px;
+      color: #E73F4A;
+      font-weight: bold;
+      margin-bottom: 20px;
     }
     .phone-number{
       
@@ -45,6 +49,6 @@
     .holiday{
 
     }
-    
+
   }
 }
