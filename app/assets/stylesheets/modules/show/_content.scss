@@ -35,20 +35,42 @@
       margin-bottom: 20px;
     }
     .phone-number{
-      
+      margin-bottom: 10px;
+      dt{
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      dd{
+        font-size: 25px;
+        font-weight: bold;
+      }
     }
     .average-budget{
-
+      margin-bottom: 10px;
+      dt{
+        margin-bottom: 5px;
+      }
+      dd{
+        font-weight: bold;
+      }
     }
     .start{
-
-    }
-    .stop{
-
+      margin-bottom: 10px;
+      dt{
+        margin-bottom: 5px;
+      }
+      dd{
+        font-weight: bold;
+      }
     }
     .holiday{
-
+      margin-bottom: 10px;
+      dt{
+        margin-bottom: 5px;
+      }
+      dd{
+        font-weight: bold;
+      }
     }
-
   }
 }
